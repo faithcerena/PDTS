@@ -67,4 +67,7 @@ group :development do
   gem "hpricot"
 end
 
+group :production do
+  gem 'pg'
+end
 gem "omniauth-google-oauth2", "~> 0.2.1"
